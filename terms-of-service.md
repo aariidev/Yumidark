@@ -1,54 +1,76 @@
 # Términos de Servicio de Yumidark
 
-**Proyecto de Ciberseguridad y Desarrollo Seguro**
+**Bot de Discord de Pen Testing y Ciberseguridad**
 
 *Fecha de última actualización: 12 de junio de 2026*
 
 ## 1. Aceptación de los Términos
 
-Al utilizar, clonar, bifurcar o contribuir al repositorio Yumidark, aceptas estos Términos de Servicio. Si no estás de acuerdo con ellos, no utilices el proyecto.
+Al invitar o usar el bot de Discord Yumidark en cualquier servidor, aceptas estos Términos de Servicio. Si no estás de acuerdo, no invites ni uses el bot.
 
-## 2. Descripción del Proyecto
+## 2. Descripción del Bot
 
-Yumidark es un proyecto enfocado en el desarrollo seguro de software, análisis de vulnerabilidades, pruebas de penetración éticas y mejores prácticas en ciberseguridad. Está diseñado para ayudar a desarrolladores y profesionales de seguridad a construir aplicaciones más seguras.
+Yumidark es un bot de Discord especializado en pruebas de penetración (pen testing) éticas, análisis de vulnerabilidades, escaneos de seguridad y tareas avanzadas de ciberseguridad. Proporciona comandos para realizar pruebas controladas y profesionales en sistemas y redes autorizadas.
 
 ## 3. Responsabilidades del Usuario
 
-- Utilizar las herramientas y código proporcionados únicamente con fines legítimos, educativos y éticos.
-- Obtener permiso explícito antes de realizar cualquier prueba de seguridad en sistemas que no te pertenezcan.
-- Reportar cualquier vulnerabilidad descubierta de manera responsable a través de issues o contacto directo.
-- Cumplir con todas las leyes y regulaciones aplicables en tu jurisdicción, incluyendo las de la Unión Europea y España.
+- **Uso Ético y Autorizado Obligatorio**: Solo puedes usar Yumidark en sistemas, redes, aplicaciones o entornos de los que seas propietario o para los que tengas **permiso explícito y documentado** del propietario.
+- Antes de ejecutar cualquier comando de escaneo, prueba o explotación, debes confirmar que tienes autorización legal.
+- Reporta cualquier vulnerabilidad descubierta de forma responsable (responsible disclosure) directamente al propietario del sistema.
+- Cumple estrictamente con las leyes aplicables en tu jurisdicción, las normas de la Unión Europea, España y los Términos de Servicio de Discord.
+- El usuario es 100% responsable de todas las acciones realizadas a través del bot.
 
 ## 4. Usos Prohibidos
 
-Queda estrictamente prohibido:
-- Usar el proyecto para realizar ataques no autorizados, hacking malicioso o actividades ilegales.
-- Distribuir código malicioso o exploits sin contexto de investigación de seguridad responsable.
-- Violar la privacidad de terceros.
-- Cualquier uso que pueda causar daño a sistemas o personas.
+Está estrictamente prohibido usar Yumidark para:
+- Realizar pruebas, escaneos o ataques contra objetivos sin autorización explícita.
+- Hacking malicioso, robo de datos, interrupción de servicios (DDoS), explotación no autorizada o cualquier actividad ilegal.
+- Compartir resultados de escaneos de sistemas de terceros sin permiso.
+- Intentar eludir las medidas de seguridad o limitaciones del bot.
+- Violar los Términos de Servicio de Discord o cualquier ley de privacidad.
+- Usar el bot con fines de acoso, fraude o daño a terceros.
 
-## 5. Propiedad Intelectual
+## 5. Funcionamiento y Comandos del Bot
 
-El código fuente está disponible bajo licencia open source (recomendamos MIT o Apache 2.0). Los contribuidores conservan sus derechos de autor.
+- Yumidark procesa comandos enviados en canales de Discord.
+- Algunos comandos sensibles (especialmente los de pen testing) pueden requerir roles específicos, confirmación o estar restringidos a administradores.
+- El bot genera logs temporales de uso para prevención de abuso, auditoría y mejora del servicio.
+- No ejecuta acciones destructivas sin confirmación explícita del usuario.
 
-## 6. Limitación de Responsabilidad
+## 6. Propiedad Intelectual
 
-Yumidark se proporciona "TAL CUAL", sin garantías de ningún tipo. En el ámbito de la ciberseguridad, el uso indebido puede tener consecuencias graves. No nos hacemos responsables de daños directos, indirectos o consecuentes derivados del uso del proyecto.
+El código fuente completo del bot está disponible públicamente en el repositorio GitHub **Yumidark** bajo licencia open source. Los contribuidores conservan sus derechos.
 
-## 7. Terminación
+## 7. Limitación de Responsabilidad
 
-Nos reservamos el derecho de terminar o suspender el acceso al proyecto para cualquier usuario que viole estos términos.
+Yumidark se proporciona "TAL CUAL", sin garantías de ningún tipo. Las pruebas de penetración y herramientas de ciberseguridad conllevan riesgos inherentes.
 
-## 8. Ley Aplicable y Jurisdicción
+No nos hacemos responsables de:
+- Daños directos, indirectos o consecuentes causados por el uso (o mal uso) del bot.
+- Pérdida de datos, interrupciones de servicio o consecuencias legales derivadas de pruebas no autorizadas.
+- Cualquier resultado o acción que realice el bot en sistemas de terceros.
 
-Estos términos se rigen por las leyes de España y la Unión Europea. Cualquier disputa se resolverá en los tribunales de Donostia / San Sebastián o jurisdicción competente.
+**El usuario asume toda la responsabilidad y riesgo al utilizar Yumidark.**
 
-## 9. Cambios en los Términos
+## 8. Terminación y Suspensión
 
-Podemos actualizar estos términos en cualquier momento. Los cambios se publicarán en este archivo.
+Nos reservamos el derecho de:
+- Suspender o eliminar el bot de tu servidor si detectamos uso indebido.
+- Revocar acceso a comandos o funcionalidades.
+- Banear usuarios que violen estos términos.
 
-## 10. Contacto
+## 9. Ley Aplicable y Jurisdicción
 
-Para preguntas o reportes de seguridad: Contacta a Ari a través de GitHub o el correo asociado.
+Estos Términos se rigen por las leyes de España y la Unión Europea (incluyendo RGPD). Cualquier disputa se resolverá en los tribunales competentes de Donostia / San Sebastián o la jurisdicción correspondiente.
 
-**Recuerda: La ciberseguridad ética salva vidas digitales. Usa Yumidark con responsabilidad.**
+## 10. Cambios en los Términos
+
+Podemos actualizar estos términos en cualquier momento. Los cambios se publicarán en el repositorio GitHub y se anunciarán en el bot cuando sea posible.
+
+## 11. Contacto y Reportes
+
+Para consultas, reportes de vulnerabilidades del bot, bugs o problemas de seguridad:
+- GitHub: aariidev / Yumidark
+- Servidor de soporte de Yumidark (si aplica)
+
+**Importante: El pen testing solo es legal y ético cuando se hace con permiso explícito. Usa Yumidark de forma responsable y profesional.**
