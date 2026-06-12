@@ -20,10 +20,10 @@ Ideal para pentesters, red teams, bug bounty hunters y administradores de sistem
 
 - 🔍 **Escaneos avanzados** de puertos, servicios y vulnerabilidades
 - 🛡️ **Análisis de seguridad** en tiempo real
-- 📊 **Reportes detallados** de hallazgos
-- ⚡ **Comandos rápidos** y fáciles de usar
-- 🔒 **Enfoque en seguridad ética** y responsible disclosure
-- 📱 **Totalmente integrado** en Discord (slash commands)
+- 📊 **Reportes detallados** y gestión de hallazgos
+- ⚡ **Más de 20 comandos** útiles para pentesters
+- 🔒 **Enfoque total en seguridad ética** y responsible disclosure
+- 📱 **Totalmente integrado** en Discord con slash commands
 
 ---
 
@@ -38,15 +38,37 @@ Ideal para pentesters, red teams, bug bounty hunters y administradores de sistem
 
 ---
 
-## 🧰 Comandos Principales
+## 🧰 Lista Completa de Comandos
 
-Usa `/help` dentro de Discord para ver la lista completa y actualizada de comandos.
+Yumidark cuenta con los siguientes slash commands:
 
-Ejemplos comunes:
-- `/scan` - Iniciar un escaneo de seguridad
-- `/nmap` - Ejecutar escaneo de puertos (con opciones)
-- `/vuln` - Buscar vulnerabilidades conocidas
-- `/report` - Generar reporte del último escaneo
+| Comando              | Descripción                                                                 | Restricción    |
+|----------------------|---------------------------------------------------------------------------------|------------------|
+| /anotar              | Guarda un hallazgo o nota durante el pentest (solo visible para ti)            | -                |
+| /borrar-hallazgos    | Elimina todas tus notas/hallazgos guardados                                    | -                |
+| /checklist           | Checklists por fase o tipo de prueba                                           | -                |
+| /fases               | Muestra las 5 fases estándar de un pentesting ético                        | -                |
+| /ffuf                | Genera comandos FFUF para fuzzing web                                          | -                |
+| /gobuster            | Genera comandos Gobuster (dir, dns, vhost) - plantillas                        | -                |
+| /hallazgos           | Muestra tus hallazgos/notas guardadas en esta sesión                        | -                |
+| /herramienta         | Recomienda herramientas según la fase del pentest                             | -                |
+| /logs                | Muestra las últimas líneas del log del bot                                   | Solo owner       |
+| /nikto               | Genera comando Nikto para escaneo web                                          | -                |
+| /nmap                | Genera comandos Nmap optimizados y seguros (plantilla)                         | -                |
+| /owasp               | Referencia rápida OWASP Top 10 2021                                           | -                |
+| /payloads            | Referencia de payloads comunes (solo ejemplos educativos)                      | -                |
+| /puertos             | Referencia rápida de puertos comunes y servicios                              | -                |
+| /reload              | Recarga un cog sin reiniciar el bot completo                                   | Solo owner       |
+| /shodan-count        | Cuenta resultados aproximados de una consulta en Shodan                        | -                |
+| /shodan-host         | Información detallada de host/IP desde Shodan (exposición pública)       | -                |
+| /shodan-search       | Búsqueda en Shodan (resultados limitados)                                     | -                |
+| /shutdown            | Cierra Yumidark de forma ordenada                                              | Solo owner       |
+| /sqlmap              | Genera plantillas básicas de sqlmap (¡úsalo con mucha precaución!)       | -                |
+| /status              | Muestra el estado actual de Yumidark                                           | Solo owner       |
+
+**Nota:** Los comandos marcados como "Solo owner" están restringidos al propietario del bot por seguridad.
+
+Usa `/help` dentro de Discord para ver la información actualizada y ejemplos de uso.
 
 ---
 
